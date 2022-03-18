@@ -9,7 +9,7 @@ abstract class Money {
         return amount == money.amount;
     }
 
-    static Dollar dollar(int amount) {
+    static Money dollar(int amount) {
         return new Dollar(amount);
     }
 }
